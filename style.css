@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #ffaaaa;
+    background-image: url('https://source.unsplash.com/1920x1080/?landscape');
+    font-size: 120%;
+    color:white;
+}
+
+.card {
+    background: #262b31c0;
+    color: white;
+    padding: 2em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin: 2em;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 01em;
+    border-radius: 29px;
+    color: white;
+    background: #9b9b9bad;
+    font-family: inherit;
+    font-size: 120%;
+    height: 23px;
+    width: calc(100% - 100px);
+}
+
+button {
+    border-radius: 51%;
+    width: 45px;
+    height: 45px;
+    margin: 0.5em;
+    outline: none;
+    background: #9b9b9bad;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.temp {
+    font-size: 50px;
+    margin: 0;
+}
